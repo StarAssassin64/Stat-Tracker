@@ -1,3 +1,4 @@
 #initial stuff
 node_modules
 config.json
+commands/Splitgate/key.json

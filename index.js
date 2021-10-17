@@ -11,7 +11,8 @@ const client = new CommandoClient({
 client.registry
     .registerDefaultTypes()
     .registerGroups([
-        ['group1', 'Default Group']
+        ['group1', 'Default Group'],
+        ['splitgate', "Commands for Splitgate"]
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
