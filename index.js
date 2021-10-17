@@ -15,7 +15,7 @@ client.registry
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
-    .registerCommandsIn(path.join(__dirname, 'commands'));
+    .registerCommandsIn(__dirname + "/commands");
 
 client.on('ready', () => {
     console.log('Logged in......');
