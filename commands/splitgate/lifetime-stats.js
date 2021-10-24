@@ -74,7 +74,5 @@ module.exports = class LifetimeStats extends Command {
                 
                 return msg.embed(embed);
             });
-            
-        return msg.say('Check Console!');
         };
     }; 
