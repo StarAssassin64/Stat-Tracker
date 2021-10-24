@@ -8,9 +8,8 @@ const client = new CommandoClient({
     disableEveryone: true
 });
 
-var disCommandHead = {
-    "Authorization": "Bot ODg3ODI3MDUxNDEzODk3MjE2.YUJzYA.2pa6NJEr4W1v28cD5qPBKSvj_Yk"
-}
+
+
 var disCommands = {
     "name": 'spltstats',
     'type': 1,
