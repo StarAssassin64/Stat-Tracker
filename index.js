@@ -20,7 +20,7 @@ client.registry
 
 client.on('ready', () => {
     console.log('Logged in......');
-    client.user.setActivity('game');
+    client.user.setActivity('Splitgate');
 });
 
 client.login(token)
