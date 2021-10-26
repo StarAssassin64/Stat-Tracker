@@ -47,6 +47,7 @@ client.registry
     .registerGroups([
         ['group1', 'Default Group'],
         ['splitgate', "Commands for Splitgate"]
+        ['moderation', 'Moderation Commands']
     ])
     .registerDefaultGroups()
     .registerDefaultCommands()
