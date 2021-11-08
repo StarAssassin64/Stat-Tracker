@@ -1,4 +1,4 @@
-const {token, cpf, OwnerID, discord_URL} = require('./config.json');
+const {token, cpf, OwnerID, discord_URL, disCommandHead } = require('./config.json');
 const { CommandoClient } = require('discord.js-commando');
 const fetch = require('node-fetch');
 
@@ -46,7 +46,7 @@ client.registry
     .registerDefaultTypes()
     .registerGroups([
         ['group1', 'Default Group'],
-        ['splitgate', "Commands for Splitgate"]
+        ['splitgate', "Commands for Splitgate"],
         ['moderation', 'Moderation Commands']
     ])
     .registerDefaultGroups()
